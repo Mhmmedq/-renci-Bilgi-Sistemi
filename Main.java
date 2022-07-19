@@ -25,12 +25,12 @@ public class Main {
       s1.notprint();
 
       s2.addBulkExamsozNote(99,54,78);
-      s2.addBulkExamsinavNote(88,65,11111);
+      s2.addBulkExamsinavNote(88,65,19);
       s2.stuname();
       s2.notprint();
 
       s3.addBulkExamsozNote(84,90,48);
-      s3.addBulkExamsinavNote(67,94,111111);
+      s3.addBulkExamsinavNote(67,94,11);
       s3.stuname();
       s3.notprint();
 
