@@ -19,28 +19,28 @@ public class Student {
     void stuname(){
         System.out.println("----->>>>>>"+name+"  "+classes+".sinif");
     }
-    void addBulkExamsozNote(int note1, int note2, int note3){
+    void addBulkExamsozNote(int note1 , int note2 , int note3 ){
         if (note1<100 && note1>0){
             this.c1.soznot=note1;
-        }else note1=0;
+        }else this.c1.soznot=0;
         if (note2<100 && note2>0){
             this.c2.soznot=note2;;
-        }else  note2=0;
+        }else  this.c2.soznot=0;
         if (note3<100 && note3>0){
             this.c3.soznot=note3;;
-        }else note3=0;
+        }else this.c3.soznot=0;
     }
     void addBulkExamsinavNote(int note4, int note5, int note6){
         if (note4<100 && note4>0) {
             this.c1.sinavnot=note4;
-        }else note4=0;
+        }else  this.c1.sinavnot=0;
         if (note5<100 && note5>0) {
             this.c2.sinavnot=note5;
-        }else note5=0;
+        }else this.c2.sinavnot=0;
         int i = 100;
         if (note6 >=0 && note6 <=100) {
             this.c3.sinavnot=note6;
-        }else note6=0;
+        }else this.c3.sinavnot=0;
     }
 
 
