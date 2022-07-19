@@ -33,12 +33,5 @@ public class Main {
       s3.addBulkExamsinavNote(67,94,11);
       s3.stuname();
       s3.notprint();
-
-
-      /// s2.notprint();
-     // s3.notprint();
-
-
     }
 }
-
